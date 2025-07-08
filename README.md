@@ -1,4 +1,4 @@
-# eBay Template Editor Pro
+# Ebay Tool-A
 
 🚀 **محرر قوالب eBay الاحترافي** - أنشئ قوالب eBay احترافية ومتجاوبة بسهولة
 
@@ -23,8 +23,8 @@
 
 1. **استنسخ المشروع**:
    ```bash
-   git clone https://github.com/yourusername/ebay-template-editor-pro.git
-   cd ebay-template-editor-pro
+   git clone https://github.com/yourusername/ebay-tool-a.git
+   cd ebay-tool-a
    ```
 
 2. **تثبيت التبعيات**:
