@@ -347,7 +347,7 @@ interface TemplateConfig {
 const defaultConfig: TemplateConfig = {
     companyName: "AH Autoteile",
     companyTagline: "Qualität • Zuverlässigkeit • Service",
-    companyLogo: "https://assets.stickpng.com/images/580b57fcd9996e24bc43c4a3.png",
+    companyLogo: "https://i.postimg.cc/pVC7m4jh/Chat-GPT-Image-Jul-7-2025-09-29-41-PM.png",
     address: "Hochofenstraße 21, 45888 Gelsenkirchen",
     workingHours: "Mo-Fr: 09:00-18:00",
     primaryColor: "#005EB8",
@@ -631,7 +631,7 @@ export default function ProfessionalEbayTemplateEditor() {
     const [config, setConfig] = useState<TemplateConfig>(defaultConfig);
     const [previewMode, setPreviewMode] = useState<"desktop" | "mobile">("desktop");
     const [copied, setCopied] = useState(false);
-    const [language, setLanguage] = useState<"de" | "ar" | "bs">("ar");
+    const [language, setLanguage] = useState<"de" | "ar" | "bs">("de");
     const [activeEditorTab, setActiveEditorTab] = useState("company");
     const { toast, toasts } = useToast();
     const [isClient, setIsClient] = useState(false);
